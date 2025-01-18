@@ -1,15 +1,20 @@
 import React from 'react';
+import './Login.css';  // Importa el archivo CSS
 
 function Login() {
   const handleLogin = () => {
-    localStorage.setItem('token', 'mi_token_secreto');
-    window.location.href = '/dashboard'; // Redirige al dashboard.
+    localStorage.setItem('isLoggedIn', 'true'); // Guarda el estado de inicio de sesión
+    window.location.href = '/'; // Redirige al inicio o a la página que desees
   };
 
   return (
-    <div>
-      <h1>Página de Login</h1>
-      <button onClick={handleLogin}>Iniciar Sesión</button>
+    <div className="login-container">
+      <div className="login-content">
+        <div className="image-container">
+          <img src="./Images/login.png" alt="Logo" className="login-image" />
+        </div>
+        <button className="login-button" onClick={handleLogin}>Iniciar Sesión</button>
+      </div>
     </div>
   );
 }
