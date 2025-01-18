@@ -1,0 +1,41 @@
+/* Estilo para el fondo de pantalla */
+.background {
+  position: fixed; /* Fija el fondo para que ocupe toda la pantalla */
+  top: 0;
+  left: 0;
+  width: 100%;        /* Asegura que el fondo ocupe toda la ventana */
+  height: 100%;       /* Asegura que el fondo ocupe toda la ventana */
+  background-image: url('../Images/fondo.jpg'); /* Ruta correcta si la imagen está en public */
+  background-size: cover; /* La imagen cubrirá toda la ventana */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  z-index: -1; /* Coloca el fondo por detrás del contenido */
+}
+
+/* Asegura que el contenido esté por encima del fondo */
+.inicio-container {
+  position: relative; /* Para que el contenido esté por encima del fondo */
+  z-index: 1; /* Asegura que el contenido se muestre por encima */
+  padding: 20px;
+  box-sizing: border-box;
+  color: white; /* Si deseas que el texto sea legible sobre el fondo */
+}
+
+/* Asegúrate de que el body ocupe toda la ventana */
+html, body {
+  height: 100%; /* Ocupa toda la altura de la ventana */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+/* Puedes agregar un estilo adicional para el contenedor de inicio si lo necesitas */
+.inicio-container h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.inicio-container p {
+  font-size: 1rem;
+  line-height: 1.5;
+}

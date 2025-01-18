@@ -1,0 +1,64 @@
+/* Estilos generales para la página de inicio */
+.inicio-container {
+  padding: 100px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.inicio-title {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #BC6132;
+}
+
+.inicio-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.inicio-banner {
+  margin: 20px 0;
+}
+
+.inicio-banner-image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inicio-content {
+  margin-top: 30px;
+}
+
+.inicio-subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #5cb85c; /* Verde suave */
+}
+
+.inicio-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.inicio-list li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.inicio-list li::before {
+  content: "✔";
+  color: #d9534f;
+  font-weight: bold;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+}

@@ -1,0 +1,21 @@
+/* Envoltorio principal */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que la altura mínima sea 100% de la ventana */
+}
+
+/* Contenido principal */
+.content-container {
+  flex-grow: 1; /* Hace que el contenido crezca para llenar el espacio disponible */
+  padding-bottom: 60px; /* Añadimos un pequeño padding para que el contenido no quede pegado al footer */
+}
+
+/* Estilos del Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}

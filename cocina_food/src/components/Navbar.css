@@ -1,0 +1,35 @@
+.navbar {
+  position: fixed;           /* Fija la barra de navegación en la parte superior */
+  top: 0;                    /* Asegura que esté en la parte superior */
+  left: 0;                   /* Asegura que esté alineada a la izquierda */
+  width: 100%;               /* Ocupa todo el ancho de la ventana */
+  display: flex;
+  justify-content: space-between;  /* Espacio entre los elementos */
+  align-items: center;           /* Centra verticalmente */
+  padding: 10px 20px;            /* Espaciado interno */
+  background-color: #f8f9fa;    /* Color de fondo */
+  border-bottom: 1px solid #ddd; /* Línea inferior */
+  z-index: 1000;                /* Asegura que la barra de navegación quede encima */
+}
+
+/* Estilo para el logo de la barra de navegación */
+.nav-logo img {
+  height: 50px; /* Ajusta el tamaño del logo */
+}
+
+/* Estilo para los enlaces de la barra de navegación */
+.nav-links {
+  display: flex;
+  gap: 15px; /* Espaciado entre los enlaces */
+}
+
+.nav-links a {
+  text-decoration: none; /* Quita el subrayado */
+  color: #333;           /* Color del texto */
+  font-weight: bold;     /* Texto en negrita */
+  transition: color 0.3s; /* Efecto de transición */
+}
+
+.nav-links a:hover {
+  color: #007bff; /* Color al pasar el cursor */
+}

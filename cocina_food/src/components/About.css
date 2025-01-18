@@ -1,0 +1,35 @@
+.about-container {
+    padding: 40px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    color: #BC6132;
+    margin-bottom: 20px;
+  }
+  
+  .about-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .about-content p:first-child {
+    margin-top: 0;
+  }
+  
+  .about-content p:last-child {
+    margin-bottom: 0;
+  }
+  
