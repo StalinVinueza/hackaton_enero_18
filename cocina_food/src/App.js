@@ -45,7 +45,7 @@ function App() {
       {/* Barra de navegación */}
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Sin Background aquí */}
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<Background><About /></Background>} />
         <Route path="/saludo" element={<Background><SaludoPage /></Background>} />
         <Route path="/contador" element={<Background><ContadorPage /></Background>} />
