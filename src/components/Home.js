@@ -32,10 +32,7 @@ function Inicio() {
           <li>Técnicas de cocina explicadas paso a paso.</li>
           <li>Inspiración para tus comidas familiares y eventos especiales.</li>
         </ul>
-        <p>
-          Prepárate para descubrir un mundo de sabores y aromas. Aprende cómo hacer tus comidas favoritas o 
-          aventúrate a probar algo nuevo. ¡Cocina Food está aquí para inspirarte!
-        </p>
+        
       </div>
     </div>
   );
